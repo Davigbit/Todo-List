@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+}
+
+.todoGrid, .todoMenu {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.todoMenu {
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 8px;
+  font-size: 15px;
+}
+
+.add, .delete {
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+.add {
+  background-color: green;
+}
+
+.delete {
+  background-color: darkred;
+}
